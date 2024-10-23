@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.character-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gear-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gear-item {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+    }
