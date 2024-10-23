@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\NinjaApp.csproj": {}
+    "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\NinjaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\NinjaApp.csproj": {
+    "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\NinjaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\NinjaApp.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\NinjaApp.csproj",
         "projectName": "NinjaApp",
-        "projectPath": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\NinjaApp.csproj",
+        "projectPath": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\NinjaApp.csproj",
         "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\obj\\",
+        "outputPath": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",

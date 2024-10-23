@@ -21,6 +21,7 @@ namespace NinjaApp.Models
         [Required(ErrorMessage = "Equipment type is required.")]
         public EquipmentType Type { get; set; }
         [Required(ErrorMessage = "Gold is required.")]
+        [Range(0, int.MaxValue, ErrorMessage = "Amount of gold must be a positive value.")]
         public int GoldWorth { get; set; }
         [Required(ErrorMessage = "Strength is required.")]
         public int Strength { get; set; }

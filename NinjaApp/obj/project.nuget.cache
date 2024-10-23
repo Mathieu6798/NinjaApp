@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P53NLKe6Gl8=",
+  "dgSpecHash": "ZJfPOUYfTWI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\NinjaApp.csproj",
+  "projectFilePath": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\NinjaApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathi\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mathi\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,65 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\",
+  "WorkspaceRootPath": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\views\\ninja\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\views\\ninja\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\views\\ninja\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\views\\ninja\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\models\\equipmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\models\\equipmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\views\\equipment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\views\\equipment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\views\\equipment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\views\\equipment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\controllers\\ninjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\controllers\\ninjacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\views\\ninja\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\views\\ninja\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\models\\ninja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\models\\ninja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\documents\\github\\ninjaapp\\ninjaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\documents\\github\\ninjaapp\\ninjaapp\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\documents\\github\\ninjaapp\\ninjaapp\\models\\ninja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\models\\ninja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\documents\\github\\ninjaapp\\ninjaapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\source\\repos\\ninjaapp\\ninjaapp\\models\\ninjaequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|c:\\users\\mathi\\documents\\github\\ninjaapp\\ninjaapp\\models\\ninjaequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40462A90-220D-4AE2-A349-C5230DDD0F8E}|NinjaApp\\NinjaApp.csproj|solutionrelative:ninjaapp\\models\\ninjaequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NinjaApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "NinjaApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-10T14:15:31.193Z",
               "IsPinned": true,
@@ -88,189 +48,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "NinjaApp\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\wwwroot\\css\\site.css",
               "RelativeToolTip": "NinjaApp\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-15T19:05:58.699Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NinjaEquipment.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\NinjaEquipment.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Models\\NinjaEquipment.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\NinjaEquipment.cs",
-              "RelativeToolTip": "NinjaApp\\Models\\NinjaEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:37:56.237Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Ninja.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\Ninja.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Models\\Ninja.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\Ninja.cs",
-              "RelativeToolTip": "NinjaApp\\Models\\Ninja.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:37:46.015Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Equipment.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\Equipment.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Models\\Equipment.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\Equipment.cs",
-              "RelativeToolTip": "NinjaApp\\Models\\Equipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:20:18.705Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\appsettings.json",
-              "RelativeDocumentMoniker": "NinjaApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\appsettings.json",
-              "RelativeToolTip": "NinjaApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-23T09:10:00.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Ninja\\Delete.cshtml",
-              "RelativeDocumentMoniker": "NinjaApp\\Views\\Ninja\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Ninja\\Delete.cshtml",
-              "RelativeToolTip": "NinjaApp\\Views\\Ninja\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T08:36:56.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Ninja\\Create.cshtml",
-              "RelativeDocumentMoniker": "NinjaApp\\Views\\Ninja\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Ninja\\Create.cshtml",
-              "RelativeToolTip": "NinjaApp\\Views\\Ninja\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T09:02:37.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NinjaController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Controllers\\NinjaController.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Controllers\\NinjaController.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Controllers\\NinjaController.cs",
-              "RelativeToolTip": "NinjaApp\\Controllers\\NinjaController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:24:20.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EquipmentController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Controllers\\EquipmentController.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Controllers\\EquipmentController.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Controllers\\EquipmentController.cs",
-              "RelativeToolTip": "NinjaApp\\Controllers\\EquipmentController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwCcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:21:30.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Equipment\\Create.cshtml",
-              "RelativeDocumentMoniker": "NinjaApp\\Views\\Equipment\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Equipment\\Create.cshtml",
-              "RelativeToolTip": "NinjaApp\\Views\\Equipment\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T08:20:10.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Equipment\\Delete.cshtml",
-              "RelativeDocumentMoniker": "NinjaApp\\Views\\Equipment\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Equipment\\Delete.cshtml",
-              "RelativeToolTip": "NinjaApp\\Views\\Equipment\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T08:37:13.467Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EquipmentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\EquipmentViewModel.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Models\\EquipmentViewModel.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Models\\EquipmentViewModel.cs",
-              "RelativeToolTip": "NinjaApp\\Models\\EquipmentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "NinjaEquipment.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Models\\NinjaEquipment.cs",
+              "RelativeDocumentMoniker": "NinjaApp\\Models\\NinjaEquipment.cs",
+              "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Models\\NinjaEquipment.cs",
+              "RelativeToolTip": "NinjaApp\\Models\\NinjaEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:37:54.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "NinjaApp\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "NinjaApp\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T08:34:28.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T20:37:56.237Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Ninja\\Edit.cshtml",
-              "RelativeDocumentMoniker": "NinjaApp\\Views\\Ninja\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\mathi\\source\\repos\\NinjaApp\\NinjaApp\\Views\\Ninja\\Edit.cshtml",
-              "RelativeToolTip": "NinjaApp\\Views\\Ninja\\Edit.cshtml",
+              "Title": "Ninja.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Models\\Ninja.cs",
+              "RelativeDocumentMoniker": "NinjaApp\\Models\\Ninja.cs",
+              "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Models\\Ninja.cs",
+              "RelativeToolTip": "NinjaApp\\Models\\Ninja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T08:36:42.091Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T20:37:46.015Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "NinjaApp\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\NinjaApp\\NinjaApp\\Models\\Equipment.cs",
+              "RelativeToolTip": "NinjaApp\\Models\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:20:18.705Z",
+              "IsPinned": true
             }
           ]
         }
