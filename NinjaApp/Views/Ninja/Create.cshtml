@@ -1,0 +1,14 @@
+﻿@model Ninja
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create</h1>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <p> </p>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

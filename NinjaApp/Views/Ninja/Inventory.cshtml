@@ -1,0 +1,66 @@
+﻿@model Ninja
+
+@{
+    ViewData["Title"] = "Inventory";
+}
+
+<body>
+    <div>
+        <h1 class="character-info">@Model.Name</h1>
+    </div>
+
+    <div class="character-info">
+        <div>
+                @{
+                    int totalStrength = 0;
+                    int totalIntelligence = 0;
+                    int totalAgility = 0;
+
+                    foreach (var ninjaEquipment in Model.NinjaEquipments)
+                    {
+                        totalStrength += ninjaEquipment.Equipment.Strength;
+                        totalIntelligence += ninjaEquipment.Equipment.Intelligence;
+                        totalAgility += ninjaEquipment.Equipment.Agility;
+                    }
+                }
+            <p><strong>Gold in wallet: @Model.AmountOfGold</strong></p>
+            <p><strong>Total Strength: @totalStrength</strong></p>
+            <p><strong>Total Intelligence: @totalIntelligence</strong></p>
+            <p><strong>Total Agility: @totalAgility</strong></p>
+        </div>
+    </div>
+    @{
+        List<EquipmentType> allEquipmentTypes = ViewData["EquipmentTypes"] as List<EquipmentType> ?? new List<EquipmentType>();
+    }
+    <div class="gear-info">
+        @foreach (var equipmentType in allEquipmentTypes)
+        {
+            var ninjaEquipment = Model.NinjaEquipments
+            .FirstOrDefault(ne => ne.Equipment.Type == equipmentType);
+
+            <div class="gear-item">
+                @if (ninjaEquipment != null)
+                {
+                    <p>Equipment: @ninjaEquipment.Equipment.Name</p>
+                    <p>Strength: @ninjaEquipment.Equipment.Strength</p>
+                    <p>Agility: @ninjaEquipment.Equipment.Agility</p>
+                    <p>Intelligence: @ninjaEquipment.Equipment.Intelligence</p>
+                }
+                else
+                {
+                    <p>Equipment:</p>
+                    <p>(Empty Slot for @equipmentType)</p>
+                }
+        </div>
+    }
+    </div>
+    <br />
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+        <div>
+            <a class="btn btn-primary" href="@Url.Action("Index", "Ninja", new { id = Model.Id })">Return to List</a>
+        </div>
+        <div>
+            <a class="btn btn-danger" href="@Url.Action("EmptyInventory", "Ninja", new { id = Model.Id })">Empty Inventory</a>
+        </div>
+    </div>
+ </body>

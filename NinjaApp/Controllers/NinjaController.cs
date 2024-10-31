@@ -37,6 +37,8 @@ namespace NinjaApp.Controllers
                 .Include(n => n.NinjaEquipments)
                 .ThenInclude(ne => ne.Equipment)
                 .FirstOrDefault(n => n.Id == id);
+            
+            ViewData["EquipmentTypes"] = Enum.GetValues<EquipmentType>().Cast<EquipmentType>().ToList();
             return View(ninja);
         }
         public ActionResult EmptyInventory(int id)

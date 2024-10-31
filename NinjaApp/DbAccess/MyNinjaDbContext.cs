@@ -51,7 +51,7 @@ namespace NinjaApp.DbAccess
             modelBuilder.Entity<Ninja>().HasData(
                 new Ninja { AmountOfGold = 100, Id = 1, Name = "Ninja 1" }
                 );
-
+            
         }
     }
 }

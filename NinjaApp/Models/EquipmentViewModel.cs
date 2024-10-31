@@ -11,6 +11,7 @@ public class EquipmentViewModel
         UsedByNinjas = GetNinjas(ninjas) ?? new List<Ninja>();
     }
 
+
     private List<Ninja> GetNinjas(List<Ninja> ninjas)
     {
         List<Ninja> ninjasWithEquipment = new List<Ninja>();
