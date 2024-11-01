@@ -1,0 +1,50 @@
+﻿@model Equipment
+@{
+    ViewData["Title"] = "Create";
+    //select list for equipment type
+    var equipmentTypes = new List<SelectListItem>
+    {
+        new SelectListItem { Text = "Head", Value = "Head" },
+        new SelectListItem { Text = "Chest", Value = "Chest" },
+        new SelectListItem { Text = "Necklace", Value = "Necklace" },
+        new SelectListItem { Text = "Hand", Value = "Hand" },
+        new SelectListItem { Text = "Feet", Value = "Feet" },
+        new SelectListItem { Text = "Ring", Value = "Ring" }
+    };
+}
+<h1>Create</h1>
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <input type="hidden" asp-for="Id" />
+        <label asp-for="Name">Name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+
+        <label asp-for="Type">Equipment Type:</label>
+        @Html.DropDownListFor(model => model.Type, equipmentTypes, "Select Type", new { @class = "form-control" })
+        <span asp-validation-for="Type" class="text-danger"></span>
+
+        <label asp-for="GoldWorth">Worth of Gold:</label>
+        <input asp-for="GoldWorth" class="form-control" />
+        <span asp-validation-for="GoldWorth" class="text-danger"></span>
+
+        <label asp-for="Strength">Strength (number):</label>
+        <input asp-for="Strength" class="form-control" />
+        <span asp-validation-for="Strength" class="text-danger"></span>
+
+        <label asp-for="Agility">Agility (number):</label>
+        <input asp-for="Agility" class="form-control" />
+        <span asp-validation-for="Agility" class="text-danger"></span>
+
+        <label asp-for="Intelligence">Intelligence (number):</label>
+        <input asp-for="Intelligence" class="form-control" />
+        <span asp-validation-for="Intelligence" class="text-danger"></span>
+    </div>
+    <p> </p>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}

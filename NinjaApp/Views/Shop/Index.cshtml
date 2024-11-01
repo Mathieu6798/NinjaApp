@@ -1,0 +1,27 @@
+﻿ @model Shop
+
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<head>
+    <title>Ninja Gear</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="card mb-3" style="text-align: center;">
+            <h1>Shop for @Model.Ninja.Name</h1>
+            <p><strong>Gold in wallet: @Model.Ninja.AmountOfGold</strong></p>
+        </div>
+            <div style="display: flex; justify-content: center; gap: 10px;">
+                @foreach (var category in Model.Categories)
+                {
+                    <a class="btn btn-primary" href="@Url.Action("ViewByCategory", new { ninjaId = Model.Ninja.Id, type = category})">@category</a>
+                }
+            </div>
+        <div style="text-align: center; margin-top: 20px;">
+            <a class="btn btn-primary" href="@Url.Action("Index", "Ninja", new { id = Model.Ninja.Id })">Return to List</a>
+        </div>
+    </div>
+</body>

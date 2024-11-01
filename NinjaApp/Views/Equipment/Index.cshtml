@@ -1,0 +1,44 @@
+﻿@model List<Equipment>
+@{
+    ViewData["Title"] = "Index";
+    var halfCount = Model.Count / 2;
+}
+
+<h1>List of Equipment</h1>
+
+<form asp-action="Index" method="get" class="form-inline mb-2">
+    <input type="text" name="searchQuery" class="form-control" placeholder="Search equipment by name..." value="@ViewData["SearchQuery"]" />
+    <br />
+    <button type="submit" class="btn btn-success">Search</button>
+</form>
+<button class="btn btn-success my-2" onclick="location.href='@Url.Action("Create", "Equipment")'">Create Equipment</button>
+
+<div class="row">
+    <div class="col-md-6">
+        @for (int i = 0; i < halfCount; i++)
+        {
+            var equipment = Model[i];
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p>Name: @equipment.Name</p>
+                    <button class="btn btn-primary" onclick="location.href='@Url.Action("Edit", "Equipment", new { id = equipment.Id })'">Edit</button>
+                    <button class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "Equipment", new { id = equipment.Id })'">Delete</button>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="col-md-6">
+        @for (int i = halfCount; i < Model.Count; i++)
+        {
+            var equipment = Model[i];
+            <div class="card mb-3">
+                <div class="card-body">
+                    <p>Name: @equipment.Name</p>
+                    <button class="btn btn-primary" onclick="location.href='@Url.Action("Edit", "Equipment", new { id = equipment.Id })'">Edit</button>
+                    <button class="btn btn-danger" onclick="location.href='@Url.Action("Delete", "Equipment", new { id = equipment.Id })'">Delete</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,32 @@
+﻿@model Equipment
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<div>
+    <p>Name: @Model.Name</p>
+    <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <input type="hidden" asp-for="Id" />
+            <label asp-for="Name">Name:</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+            <label asp-for="GoldWorth">Worth of Gold:</label>
+            <input asp-for="GoldWorth" class="form-control" />
+            <span asp-validation-for="GoldWorth" class="text-danger"></span>
+            <label asp-for="Strength">Strength:</label>
+            <input asp-for="Strength" class="form-control" />
+            <span asp-validation-for="Strength" class="text-danger"></span>
+            <label asp-for="Agility">Agility:</label>
+            <input asp-for="Agility" class="form-control" />
+            <span asp-validation-for="Agility" class="text-danger"></span>
+            <label asp-for="Intelligence">Intelligence:</label>
+            <input asp-for="Intelligence" class="form-control" />
+            <span asp-validation-for="Intelligence" class="text-danger"></span>
+        </div>
+        <p> </p>
+        <button type="submit" class="btn btn-primary">Confirm</button>
+    </form>
+</div>

@@ -1,0 +1,40 @@
+﻿@model EquipmentViewModel
+
+<h1>Delete equipment</h1>
+<div>
+    <p>Are you sure you want to delete this equipment?</p>
+    @if (Model.UsedByNinjas.Count() > 0 )
+    {
+        <p>This equipment is currently being used by the following ninjas:</p>
+        <ul>
+            @foreach (var ninja in Model.UsedByNinjas)
+            {
+                <li>@ninja.Name</li>
+            }
+        </ul>
+        <p>If you delete this equipment, it will be removed from the ninjas' inventory.</p>
+        <p>Do you want to remove the equipment and give the ninjas their gold back or not remove the item?</p>
+        <form asp-action="Delete" method="post">
+            @Html.AntiForgeryToken()
+            <div class="form-group">
+                <input type="hidden" asp-for="Equipment.Id" />
+                <input type="hidden" asp-for="Equipment.Name" />
+                <input type="hidden" asp-for="UsedByNinjas" />
+                <button type="submit" class="btn btn-primary">Remove the item and give the ninjas their gold back</button>
+                <a class="btn btn-primary" href="@Url.Action("Index", "Ninja", new { id = Model.Equipment.Id })">Not remove the item</a>
+            </div>
+        </form>
+    }
+    else
+    {
+        <form asp-action="Delete" method="post">
+            <div class="form-group">
+                <input type="hidden" asp-for="Equipment.Id" />
+                <input type="hidden" asp-for="Equipment.Name" />
+                <input type="hidden" asp-for="UsedByNinjas" />
+                <button type="submit" class="btn btn-primary">Yes</button>
+                <a class="btn btn-primary" href="@Url.Action("Index", "Ninja", new { id = Model.Equipment.Id })">No</a>
+            </div>
+        </form>
+    }
+</div>

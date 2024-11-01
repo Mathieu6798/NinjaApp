@@ -1,0 +1,58 @@
+﻿@model NinjaApp.Models.ShopCategory
+
+@{
+    ViewData["Title"] = "Shop - @Model.SelectedCategory";
+}
+
+<h2>@Model.SelectedCategory Items</h2>
+
+<p>You have <strong>@Model.Ninja.AmountOfGold</strong> gold.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item Name</th>
+            <th>Gold Worth</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Equipment)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.GoldWorth</td>
+                <td>
+                    @if (Model.Ninja.NinjaEquipments != null && Model.Ninja.NinjaEquipments.Any(e => e.EquipmentId == item.Id))
+                    {
+                        <form asp-action="Sell" method="post">
+                            <input type="hidden" name="ninjaId" value="@Model.Ninja.Id" />
+                            <input type="hidden" name="equipmentId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger">Sell</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="Buy" method="post">
+                            <input type="hidden" name="ninjaId" value="@Model.Ninja.Id" />
+                            <input type="hidden" name="equipmentId" value="@item.Id" />
+                            <button type="submit" class="btn btn-success">Buy</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+        <tr>
+            <td class="secondary-color">
+                <a class="btn btn-primary" href="@Url.Action("Index", "Shop", new { id = Model.Ninja.Id })">Return to Shop</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+ @if (TempData["ErrorMessage"] != null)
+ {
+     <div class="alert alert-danger">
+         @TempData["ErrorMessage"]
+     </div>
+ }
