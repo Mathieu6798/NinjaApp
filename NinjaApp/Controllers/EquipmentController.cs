@@ -61,7 +61,11 @@ namespace NinjaApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                var equipment = _context.Equipments.Find(id);
+                Equipment? equipment = _context.Equipments.FirstOrDefault(n => n.Id == id);
+                if (equipment == null)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
                 equipment.Name = name;
                 equipment.GoldWorth = amountOfGold;
                 equipment.Strength = strength;
@@ -76,9 +80,9 @@ namespace NinjaApp.Controllers
         }
         public ActionResult Delete(int id)
         {
-            var equipment = _context.Equipments.Find(id);
+            Equipment? equipment = _context.Equipments.FirstOrDefault(n => n.Id == id);
             // Ninjas out of the database like this otherwise the ninjaequipments will be null
-            var ninjas = _context.Ninjas
+            List<Ninja> ninjas = _context.Ninjas
             .Include(n => n.NinjaEquipments)
             .ThenInclude(ne => ne.Equipment)
             .ToList();
@@ -91,7 +95,7 @@ namespace NinjaApp.Controllers
         public IActionResult Delete(int id, string name, List<Ninja> ninjas)
         {
             // Fetch the equipment along with its associated NinjaEquipments and Ninjas
-                var equipment = _context.Equipments
+                Equipment? equipment = _context.Equipments
                     .Include(e => e.NinjaEquipments)
                     .ThenInclude(ne => ne.Ninja)
                     .FirstOrDefault(e => e.Id == id);

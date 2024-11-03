@@ -3,7 +3,7 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Edit Equipment</h1>
 <div>
     <p>Name: @Model.Name</p>
     <form asp-action="Edit" method="post">
@@ -30,3 +30,7 @@
         <button type="submit" class="btn btn-primary">Confirm</button>
     </form>
 </div>
+@*To show if the value is valid*@
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}

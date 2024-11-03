@@ -73,21 +73,16 @@ namespace NinjaApp.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken] 
-        public IActionResult Create(string name)
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Ninja model)
         {
-            if (ModelState.IsValid)
+            Ninja ninja = new Ninja
             {
-                // create a new ninja object
-                Ninja ninja = new Ninja { 
-                    AmountOfGold = 100, 
-                    Name = name 
-                };
-                // add the ninja to the database
-                _context.Ninjas.Add(ninja);
-                _context.SaveChanges();
-                return RedirectToAction(nameof(Index));
-            }
+                Name = model.Name,
+                AmountOfGold = model.AmountOfGold
+            };
+            _context.Ninjas.Add(ninja);
+            _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
         public ActionResult Edit(int id)

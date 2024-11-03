@@ -12,7 +12,7 @@
         new SelectListItem { Text = "Ring", Value = "Ring" }
     };
 }
-<h1>Create</h1>
+<h1>Create Equipment</h1>
 <form asp-action="Create" method="post">
     @Html.AntiForgeryToken()
     <div class="form-group">
@@ -45,6 +45,7 @@
     <button type="submit" class="btn btn-primary">Create</button>
 </form>
 
+@*To show if the value is valid*@
 @section Scripts {
     @Html.Partial("_ValidationScriptsPartial")
 }
