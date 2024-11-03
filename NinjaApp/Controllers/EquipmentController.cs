@@ -83,9 +83,9 @@ namespace NinjaApp.Controllers
             Equipment? equipment = _context.Equipments.FirstOrDefault(n => n.Id == id);
             // Ninjas out of the database like this otherwise the ninjaequipments will be null
             List<Ninja> ninjas = _context.Ninjas
-            .Include(n => n.NinjaEquipments)
-            .ThenInclude(ne => ne.Equipment)
-            .ToList();
+                .Include(n => n.NinjaEquipments)
+                .ThenInclude(ne => ne.Equipment)
+                .ToList();
             EquipmentViewModel equipmentViewModel = new EquipmentViewModel(equipment, ninjas);
             return View(equipmentViewModel);
         }

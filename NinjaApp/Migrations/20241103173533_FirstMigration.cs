@@ -73,12 +73,24 @@ namespace NinjaApp.Migrations
                 columns: new[] { "Id", "Agility", "GoldWorth", "Intelligence", "Name", "Strength", "Type" },
                 values: new object[,]
                 {
-                    { 1, 5, 300, 2, "Diamond Sword", 10, 2 },
-                    { 2, 3, 200, 1, "Diamond Helmet", 5, 0 },
-                    { 3, 5, 300, 2, "Diamond Chestplate", 10, 1 },
-                    { 4, 3, 200, 1, "Diamond Boots", 5, 3 },
-                    { 5, 5, 300, 2, "Lord of the Ring", 10, 4 },
-                    { 6, 3, 200, 1, "Pearl Necklace", 5, 5 }
+                    { 1, 5, 100, 3, "Diamond Sword", 20, 2 },
+                    { 2, 4, 35, 2, "Diamond Helmet", 8, 0 },
+                    { 3, 6, 50, 3, "Diamond Chestplate", 12, 1 },
+                    { 4, 7, 25, 9, "Diamond Boots", 4, 3 },
+                    { 5, 5, 22, 8, "Lord of the Ring", 6, 4 },
+                    { 6, 3, 15, 4, "Pearl Necklace", 7, 5 },
+                    { 7, 6, 28, 3, "Iron Sword", 16, 2 },
+                    { 8, 4, 32, 2, "Iron Helmet", 9, 0 },
+                    { 9, 7, 45, 4, "Iron Chestplate", 13, 1 },
+                    { 10, 8, 27, 10, "Iron Boots", 5, 3 },
+                    { 11, 9, 18, 5, "Speed Ring", 4, 4 },
+                    { 12, 4, 12, 3, "Diamond Necklace", 6, 5 },
+                    { 13, 6, 14, 2, "Wooden Sword", 14, 2 },
+                    { 14, 4, 26, 2, "Wooden Helmet", 6, 0 },
+                    { 15, 6, 42, 3, "Wooden Chestplate", 11, 1 },
+                    { 16, 8, 24, 7, "Wooden Boots", 3, 3 },
+                    { 17, 5, 17, 6, "Strength Ring", 10, 4 },
+                    { 18, 10, 11, 2, "Agility Necklace", 5, 5 }
                 });
 
             migrationBuilder.InsertData(

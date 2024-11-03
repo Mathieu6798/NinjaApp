@@ -59,58 +59,178 @@ namespace NinjaApp.Migrations
                             Id = 1,
                             Agility = 5,
                             GoldWorth = 100,
-                            Intelligence = 2,
+                            Intelligence = 3,
                             Name = "Diamond Sword",
-                            Strength = 15,
+                            Strength = 20,
                             Type = 2
                         },
                         new
                         {
                             Id = 2,
-                            Agility = 3,
-                            GoldWorth = 30,
-                            Intelligence = 1,
+                            Agility = 4,
+                            GoldWorth = 35,
+                            Intelligence = 2,
                             Name = "Diamond Helmet",
-                            Strength = 5,
+                            Strength = 8,
                             Type = 0
                         },
                         new
                         {
                             Id = 3,
-                            Agility = 5,
-                            GoldWorth = 40,
-                            Intelligence = 2,
+                            Agility = 6,
+                            GoldWorth = 50,
+                            Intelligence = 3,
                             Name = "Diamond Chestplate",
-                            Strength = 10,
+                            Strength = 12,
                             Type = 1
                         },
                         new
                         {
                             Id = 4,
-                            Agility = 6,
-                            GoldWorth = 20,
-                            Intelligence = 10,
+                            Agility = 7,
+                            GoldWorth = 25,
+                            Intelligence = 9,
                             Name = "Diamond Boots",
-                            Strength = 3,
+                            Strength = 4,
                             Type = 3
                         },
                         new
                         {
                             Id = 5,
-                            Agility = 4,
-                            GoldWorth = 15,
-                            Intelligence = 7,
+                            Agility = 5,
+                            GoldWorth = 22,
+                            Intelligence = 8,
                             Name = "Lord of the Ring",
-                            Strength = 3,
+                            Strength = 6,
                             Type = 4
                         },
                         new
                         {
                             Id = 6,
                             Agility = 3,
-                            GoldWorth = 10,
-                            Intelligence = 1,
+                            GoldWorth = 15,
+                            Intelligence = 4,
                             Name = "Pearl Necklace",
+                            Strength = 7,
+                            Type = 5
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Agility = 6,
+                            GoldWorth = 28,
+                            Intelligence = 3,
+                            Name = "Iron Sword",
+                            Strength = 16,
+                            Type = 2
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Agility = 4,
+                            GoldWorth = 32,
+                            Intelligence = 2,
+                            Name = "Iron Helmet",
+                            Strength = 9,
+                            Type = 0
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Agility = 7,
+                            GoldWorth = 45,
+                            Intelligence = 4,
+                            Name = "Iron Chestplate",
+                            Strength = 13,
+                            Type = 1
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Agility = 8,
+                            GoldWorth = 27,
+                            Intelligence = 10,
+                            Name = "Iron Boots",
+                            Strength = 5,
+                            Type = 3
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Agility = 9,
+                            GoldWorth = 18,
+                            Intelligence = 5,
+                            Name = "Speed Ring",
+                            Strength = 4,
+                            Type = 4
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Agility = 4,
+                            GoldWorth = 12,
+                            Intelligence = 3,
+                            Name = "Diamond Necklace",
+                            Strength = 6,
+                            Type = 5
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Agility = 6,
+                            GoldWorth = 14,
+                            Intelligence = 2,
+                            Name = "Wooden Sword",
+                            Strength = 14,
+                            Type = 2
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Agility = 4,
+                            GoldWorth = 26,
+                            Intelligence = 2,
+                            Name = "Wooden Helmet",
+                            Strength = 6,
+                            Type = 0
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Agility = 6,
+                            GoldWorth = 42,
+                            Intelligence = 3,
+                            Name = "Wooden Chestplate",
+                            Strength = 11,
+                            Type = 1
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Agility = 8,
+                            GoldWorth = 24,
+                            Intelligence = 7,
+                            Name = "Wooden Boots",
+                            Strength = 3,
+                            Type = 3
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Agility = 5,
+                            GoldWorth = 17,
+                            Intelligence = 6,
+                            Name = "Strength Ring",
+                            Strength = 10,
+                            Type = 4
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Agility = 10,
+                            GoldWorth = 11,
+                            Intelligence = 2,
+                            Name = "Agility Necklace",
                             Strength = 5,
                             Type = 5
                         });

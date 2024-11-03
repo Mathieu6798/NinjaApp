@@ -18,16 +18,16 @@ namespace NinjaApp.Controllers
         public IActionResult Index(int id)
         {
             // get the ninja with the given id
-            var ninja = _context.Ninjas
-            .Include(n => n.NinjaEquipments)
-            .FirstOrDefault(n => n.Id == id);
+            Ninja? ninja = _context.Ninjas
+                .Include(n => n.NinjaEquipments)
+                .FirstOrDefault(n => n.Id == id);
             if (ninja == null)
             {
                 return NotFound();
             }
             
             //create a new Shop object, distict for removing duplicate equipment types
-            var viewModel = new Shop
+            Shop viewModel = new Shop
             {
                 Ninja = ninja,
                 Categories = _context.Equipments
@@ -42,7 +42,7 @@ namespace NinjaApp.Controllers
         public IActionResult ViewByCategory(int ninjaId, EquipmentType type)
         {
             // get the ninja with the given id
-            var ninja = _context.Ninjas
+            Ninja? ninja = _context.Ninjas
                                 .Include(n => n.NinjaEquipments)
                                 .ThenInclude(ne => ne.Equipment)
                                 .FirstOrDefault(n => n.Id == ninjaId);
@@ -55,12 +55,12 @@ namespace NinjaApp.Controllers
             // if the ninja has no equipments, initialize the list
             ninja.NinjaEquipments = ninja.NinjaEquipments ?? new List<NinjaEquipment>();
 
-            var equipment = _context.Equipments
+            List<Equipment> equipment = _context.Equipments
                 .Where(e => e.Type == type)
                 .ToList();
 
             // create a new ShopCategory object
-            var viewModel = new ShopCategory
+            ShopCategory viewModel = new ShopCategory
             {
                 Ninja = ninja,
                 Equipment = equipment,
@@ -74,11 +74,11 @@ namespace NinjaApp.Controllers
         public IActionResult Buy(int ninjaId, int equipmentId)
         {
             // get the ninja with the given id
-            var ninja = _context.Ninjas
+            Ninja? ninja = _context.Ninjas
                  .Include(n => n.NinjaEquipments)
                  .ThenInclude(ne => ne.Equipment)
                  .FirstOrDefault(n => n.Id == ninjaId);
-            var equipment = _context.Equipments.Find(equipmentId);
+            Equipment? equipment = _context.Equipments.FirstOrDefault(n => n.Id == equipmentId);
 
             if (ninja == null || equipment == null)
             {
@@ -100,7 +100,7 @@ namespace NinjaApp.Controllers
             }
 
             // create a new NinjaEquipment object
-            var ninjaEquipment = new NinjaEquipment
+            NinjaEquipment ninjaEquipment = new NinjaEquipment
             {
                 NinjaId = ninjaId,
                 EquipmentId = equipmentId,
@@ -122,8 +122,8 @@ namespace NinjaApp.Controllers
         public IActionResult Sell(int ninjaId, int equipmentId)
         {
             // get the ninja with the given id
-            var ninja = _context.Ninjas.Include(n => n.NinjaEquipments).FirstOrDefault(n => n.Id == ninjaId);
-            var ninjaEquipment = _context.NinjaEquipments
+            Ninja? ninja = _context.Ninjas.Include(n => n.NinjaEquipments).FirstOrDefault(n => n.Id == ninjaId);
+            NinjaEquipment? ninjaEquipment = _context.NinjaEquipments
                 .Include(ne => ne.Equipment)
                 .FirstOrDefault(ne => ne.NinjaId == ninjaId && ne.EquipmentId == equipmentId);
 

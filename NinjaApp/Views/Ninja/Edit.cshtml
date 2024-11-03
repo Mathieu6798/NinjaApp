@@ -7,6 +7,7 @@
 <div>
     <p>Name: @Model.Name</p>
     <form asp-action="Edit" method="post">
+        @Html.AntiForgeryToken()
         <div class="form-group">
             <input type="hidden" asp-for="Id" />
             <label asp-for="Name">Name:</label>
