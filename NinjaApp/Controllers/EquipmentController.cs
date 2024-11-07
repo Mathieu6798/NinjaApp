@@ -57,7 +57,7 @@ namespace NinjaApp.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, string name, int amountOfGold, int strength, int agility, int intelligence)
+        public IActionResult Edit(int id, string name, int goldWorth, int strength, int agility, int intelligence)
         {
             if (ModelState.IsValid)
             {
@@ -67,7 +67,7 @@ namespace NinjaApp.Controllers
                     return RedirectToAction(nameof(Index));
                 }
                 equipment.Name = name;
-                equipment.GoldWorth = amountOfGold;
+                equipment.GoldWorth = goldWorth;
                 equipment.Strength = strength;
                 equipment.Agility = agility;
                 equipment.Intelligence = intelligence;
